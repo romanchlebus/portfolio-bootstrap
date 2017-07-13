@@ -1,0 +1,431 @@
+
+/*Czcionki do wyuboru do konkretnej sekcji
+    font-family: 'Droid Serif', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif;
+*/
+/*scroll funkcja jquerry dodatkowa klasa*/
+.JqClass{
+    width: 100%;
+    background-color: lightblue;
+   
+}
+*{
+   box-sizing: border-box;
+}
+/*Nawigacja*/
+.navbar-toggle{
+    background-color: white;
+     transition: all 0.4s;
+}
+.navbar-default .navbar-toggle:focus{
+    background-color: white;  
+}
+.navbar-default .navbar-toggle:hover{
+    background-color: #0ed8d6;
+}
+.navbar{
+    background-color: transparent;
+    border: none;
+}
+.navbar-default .navbar-nav>li>a{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    transition: all 0.4s;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: #0ed8d6;
+}
+.navbar-default .navbar-nav>li>a:focus{
+    color: white;
+}
+#bs-example-navbar-collapse-1{
+    padding-right: 5%;
+}
+.navbar-brand{
+   padding: 0px 0px 0px 30px;
+    line-height: 50px;
+}
+.navbar-header .navbar-brand {
+    color: white;
+     font-size: 40px;
+     transition: all 0.4s;
+}
+.navbar-header .navbar-brand:hover{
+ color: #0ed8d6;
+
+}
+.navbar-header .navbar-brand:focus{
+ color: white;
+
+}
+
+
+/*Naglowek*/
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/header/pictures_on_the_wall.jpg);
+    background-repeat: no-repeat;
+    background-position: top; 
+    text-align: center;
+}
+#center{
+    height: 120px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto; 
+}
+.header-first-text{
+    font-family: 'Droid Serif', serif;
+    font-weight: 400;
+    color: white;
+    font-size: 15px;
+}
+.header-second-text{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#center button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 10px;
+    background-color: #0ed8d6;
+    text-transform: uppercase;
+    padding: 15px 35px;
+    border: 1px solid #0ed8d6;
+     transition: all 0.4s;
+}
+#center button:hover{
+    background-color: #ffffff;
+    color: #0ed8d6;
+}
+#center button:focus{
+    background-color: #0ed8d6;
+    color: #ffffff;
+    border: none;
+}
+/*Sekcja services*/
+.header-third-text{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #333333;
+    text-align: center;
+    padding-top: 10vw;
+}
+.header-fourth-text{
+     font-family: 'Droid Serif', serif;
+     color: #333333;
+     text-align: center;
+     font-weight: 400;
+     font-size: 15px;
+}
+/*botstrap sekcji services*/
+.container .row .temp {
+    text-align: center;
+    padding-top: 30px; 
+    
+}
+
+.section-text{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.section-text-second{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+}
+/*fonawesome sekcji services*/
+#round{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+     background-color: #0ed8d6;
+    position: relative;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: 0.5s;
+     
+}
+#round a{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;     
+}
+
+#round:hover{
+     border: 1px solid #0ed8d6;
+    background-color: white;
+    transform: rotate(360deg);
+}
+#round:hover a i{
+    color: #0ed8d6;
+}
+/*sekcja portfolio*/
+#portfolio{
+    background-color: #f7f7f7;
+}
+
+.por{
+   
+    background-color: #f7f7f7;
+    padding-bottom: 100px;
+}
+
+.innerPortfolio{
+    background-color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+.photo{
+    height: 200px;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+  
+}
+#photo-one{
+    background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+}
+#photo-two{
+    background-image: url(../img/portfolio/typing_on_laptop.jpg);
+}
+#photo-three{
+    background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+}
+#photo-four{
+    background-image: url(../img/portfolio/chaotic_paint.jpg);
+}
+#photo-five{
+    background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+}
+#photo-six{
+    background-image: url(../img/portfolio/box_of_cookies.jpg);
+}
+.foto-container{
+    overflow: hidden;
+}
+.photo:hover{
+    transform: scale(1.2); 
+}
+.foto-cover{
+    height: 100%;
+    transition: 0.5s;
+    position: relative;
+}
+.link-cover{
+    display: block;
+    height: 100%;
+}
+.foto-cover i {
+    opacity: 0;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s;
+}
+
+.foto-cover:hover{
+   background-color: rgba(14,216,214, 0.85);
+}
+.foto-cover:hover i{
+    opacity: 1;
+}
+.text-por{
+   font-family: 'Roboto Slab', serif;
+   color: #777777;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 0;
+}
+.text-port{
+   font-family: 'Droid Serif', serif;
+   color: #777777;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/*sekcja TEAM*/
+
+.container-margin{
+    margin-top: 50px;
+}
+.boot-team{
+    text-align: center;
+}
+.team-foto{
+    background: red;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#team-one{
+    background-image: url(../img/team/man-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#team-two{
+    background-image: url(../img/team/man-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#team-three{
+    background-image: url(../img/team/woman-1.jpg);
+     background-position: center;
+    background-size: cover;
+}
+.social-div{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    top:0;
+    bottom: 0;
+    left:  0;
+    right: 0;
+    margin: 5px;
+    transition: all 0.5s;
+}
+.social-div:hover{
+    background-color: #0ed8d6;
+}
+
+.social-div a{
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px; 
+}
+.text-team{
+     font-family: 'Droid Serif', serif;
+   color: #777777;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+/*Sekcja kontakt*/
+
+#contact{
+    background-image: url(../img/footer/world-map.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+#contact h3{
+    color: white;
+}
+#contact h1{
+    color: white;
+}
+#formulasz input{
+
+   padding: 15px;
+   margin-bottom: 10px;
+   width: 100%;
+  font-family: 'Roboto Slab', serif;
+   color: black;
+   background-color: white;
+   border: none;
+   box-sizing: border-box;
+}
+textarea{
+   height: 170px;
+    width: 100%;
+   resize: none;
+}
+#wyslij{
+    margin: 30px 0px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    background: #0ed8d6;
+    border: 2px solid #0ed8d6;
+    font-size: 14px;
+    font-weight: 700;
+    transition: all 0.5s;
+}
+#wyslij:hover{
+    color: black;
+    background: white;
+    border: 2px solid #0ed8d6;
+}
+
+.container-wyslij{
+    text-align: center;
+}
+/*Footer*/
+.foot-padding{
+    padding: 10px;
+    text-align: center;
+}
+.foot h1{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 10px;
+    text-align: center;
+}
+.link-footer h1{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 10px;
+    display: inline;
+}
+.foot-padding .link-footer{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 10px;
+   text-decoration: none;
+    display: inline;
+    color: #777777;
+    padding: 15px;
+    transition: all 0.5s;
+}
+
+.foot-padding .link-footer:hover{
+    color: #0ed8d6;
+}
+
+.foott{
+    padding: 22px;
+    text-align: center;
+}

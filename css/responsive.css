@@ -1,0 +1,10 @@
+@media all and (max-width: 768px){
+   
+    .navbar{
+    background-color: lightblue;
+    border: none;
+}
+ .navbar-default .navbar-nav>li>a{
+    text-align: right;
+}   
+}
