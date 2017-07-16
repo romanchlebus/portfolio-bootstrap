@@ -157,10 +157,6 @@ header {
     border-radius: 50%;
      background-color: #0ed8d6;
     position: relative;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
     margin: auto;
     transition: 0.5s;
      
@@ -285,26 +281,18 @@ header {
     height: 150px;
     width: 150px;
     position: relative;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
     margin: auto;
+    background-position: center;
+    background-size: cover;
 }
 #team-one{
     background-image: url(../img/team/man-1.jpg);
-    background-position: center;
-    background-size: cover;
 }
 #team-two{
     background-image: url(../img/team/man-2.jpg);
-    background-position: center;
-    background-size: cover;
 }
 #team-three{
     background-image: url(../img/team/woman-1.jpg);
-     background-position: center;
-    background-size: cover;
 }
 .social-div{
     display: inline-block;
@@ -352,7 +340,7 @@ header {
 #contact h3{
     color: white;
 }
-#contact h1{
+#contact p{
     color: white;
 }
 #formulasz input{
